@@ -6,6 +6,7 @@ init_config() {
             cp /nanocrawler/examples/nano/${config} /opt/nanocrawler/${config}
         fi
         cp /opt/nanocrawler/${config} /nanocrawler/src/${config}
+        cp /opt/nanocrawler/${config} /nanocrawler/${config}
     done
 }
 
